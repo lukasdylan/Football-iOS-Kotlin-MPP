@@ -1,0 +1,6 @@
+framework module FootballNewsSharedCode {
+    umbrella header "FootballNewsSharedCode.h"
+
+    export *
+    module * { export * }
+}
