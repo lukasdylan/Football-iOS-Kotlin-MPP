@@ -21,12 +21,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-//        observeData()
+        observeData()
         viewModel.testLoadLeagueList()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 7) {
-//            self.viewModel.testLoadLeagueList()
-            self.observeData()
-        }
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 7) {
+////            self.viewModel.testLoadLeagueList()
+//            self.observeData()
+//        }
     }
     
     private func observeData() {
